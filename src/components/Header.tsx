@@ -11,6 +11,11 @@ const Header = () => {
     <header className="bg-white/80 backdrop-blur-sm border-b border-purple-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
+          <img
+            src="https://cdn.poehali.dev/files/496b54b4-456b-4e05-8f17-9cae7d298c88.jpeg"
+            alt="Логотип СПТ"
+            className="h-10 w-10 object-contain"
+          />
           {!isHomePage && (
             <Button
               variant="ghost"
