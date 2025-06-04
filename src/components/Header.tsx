@@ -23,7 +23,8 @@ const Header = () => {
             </Button>
           )}
           <h2 className="text-xl font-semibold text-gray-800 font-rubik">
-            Словарь Профессий
+            Словарь Профессий для студентов Сибирского Политехнического
+            Техникума{" "}
           </h2>
         </div>
       </div>
